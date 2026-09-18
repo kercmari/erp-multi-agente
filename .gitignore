@@ -1,0 +1,99 @@
+# ===========================================================================
+#  Secretos y credenciales  (NUNCA subir)
+# ===========================================================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials
+credentials.json
+secrets.json
+*_secret*
+*apikey*
+*api_key*
+
+# ===========================================================================
+#  Configuracion local de editores y herramientas de asistencia
+# ===========================================================================
+.claude/
+.claude.json
+.claude.json.backup
+CLAUDE.md
+.cursor/
+.cursorrules
+.cursorignore
+.copilot/
+.github/copilot-instructions.md
+.aider*
+.codeium/
+.codegpt/
+.continue/
+.gemini/
+.codex/
+.windsurfrules
+.tabnine/
+.sourcegraph/
+.vscode/
+.idea/
+*.code-workspace
+.history/
+
+# ===========================================================================
+#  Python
+# ===========================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ===========================================================================
+#  Datos generados  (se regeneran con scripts/seed_data.py y build_index.py)
+# ===========================================================================
+app/data/
+*.sqlite3
+*.db
+*.npy
+
+# ===========================================================================
+#  Sistema operativo y temporales
+# ===========================================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ===========================================================================
+#  Enunciado de la prueba  (documento del evaluador, no del proyecto)
+# ===========================================================================
+*.pdf
+!app/data/normativa_sintetica.pdf
+
+# ===========================================================================
+#  Documentacion interna  (no se publica en el repositorio)
+# ===========================================================================
+docs/
